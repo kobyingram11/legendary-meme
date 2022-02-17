@@ -2,96 +2,71 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
- <title>kingram-html-lab-beta</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
- <link rel="stylesheet" href="./styles/style.css">
+  <title>ingram-lab-delta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/style/style.css/">
 
 </head>
 <body>
 
-  <nav class="navbar navbar-light bg-info">
-    <div class="container-fluid justify-content-center">
-      <span class="navbar-brand mb-0 h1">how many WOW do you has?</span>
-    </div>
-  </nav>
+<!-- TODO: navbar w/ links to github account with title -->
+<!-- TODO: footer -->
+<!-- TODO: center card w/ offset? -->
 
-  <div class="container-fluid">
+<div class="container-fluid">
+<nav class="navbar navbar-dark bg-warning">
+  <div class="container-fluid justify-content-center">
+    <span class="navbar-brand mb-0 h1">NAME FACT GENERATOR</span>
+  </div>
+</nav>
 
-    <div class="row">
-    <!-- LOOK AT BOOTSTRAP headers -->
-    </div>
-
-    <div class="row">
-      <p id="wowOutput"></p>
-
-    </div>
+  
+    
 
     <div class="row">
+      <!--<div class="col-sm-4">
+    
+        <div class="card ">
+          <div class="card-body">
+            <h4 class="card-title">github link</h4>
+            <p class="card-text">a guide to how to link to your REPO (source code) and your app (deployment) </p>
+            <a href="https://github.com/kobyingram11/legendary-meme" target="_blank" class="card-link">repo</a>
+            <a href="https://kobyingram11.github.io/legendary-meme/" target="_blank" class="card-link">deploy + go to app</a> <!--if you name traget thr same it will openin same tab.-->
+          </div><!--card body-->
+        </div><!--card -->
 
-      <div id="dogeHouse">
-        <div id="dogeDiv" class="draggable ui-widget-content">
-          <img 
-            id="dogePic" 
-            alt="so much wow" 
-            src="./img/so-many-wow.jpeg" 
-            width="100px" 
-            height="150px">
-      </div>  
-        </div>
+    <div class="col-sm-8 mx-auto">
+    
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Want Cool Name Facts?</h4>
+              <p class="card-text">Just Enter Your First Name for Cool Name Facts! </p>
 
-      </div>
-      
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+              <label for="userName">What's Your Name?</label>
+              <input type="text" id="userName" name="userName">
+              <button id="btnGetFacts" class="btn btn-secondary"> CLICK HERE! </button>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+              <h2><span id="coolNameFactsOutput"></span></h2>
+              
+            </div><!--card body-->
+          </div><!--card-->
 
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    </div> <!--row-->
+  </div> <!--container-->
 
-<script src="scripts/script.js"></script>
+
+  <footer class="footer bg-light text-center">
+    <div class="container">
+      <span class="text-muted">To Whom This May Concern 2022.</span>
+    </div>
+  </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="/script/script.js"></script>
 
 </body>
 </html>
 
-
-
-
-
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Kingram HTML Alpha CIS-376</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="row">
-  <div class="col-sm-4">
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <h3 class="card-title" id="userPrompt">What is your First Name?</h3>
-
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"><br><br>
-
-      <button class="btn btn-secondary">say hello?</button>
-
-    </div>
-
-    <p id="greetingOutput"></p>
-  </div>
-
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./script.js"></script>
-
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
-
-</body>
-</html>
