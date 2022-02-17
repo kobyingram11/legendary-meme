@@ -10,7 +10,11 @@ h3, label, p {
 }
 
 h3 {
-  color:red;
+  color:rgb(38, 0, 128);
+  font-family: "Quicksand:wght@300", sans-serif;
+}
+h4 {
+  color:teal;
   font-family: "Quicksand:wght@300", sans-serif;
 }
 
@@ -23,9 +27,9 @@ label {
   margin-top: 1rem;
 }
 .draggable {
-   width: 80px; 
-   height: 80px; 
-   padding: 0.75em; 
+   width: 90px; 
+   height: 90px; 
+   padding: 0.5em; 
    float: left; 
    margin: 0 10px 10px 0; 
   }
@@ -33,8 +37,15 @@ label {
 #dogeHouse {
    width: 95%; 
    height:300px; 
-   border:10px solid #0f0300; 
+   border:10px solid #E5340D; 
    padding: 10px; 
-  background-color: #c10202;
+  background-color: #02C132;
 
   }
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
